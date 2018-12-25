@@ -1,0 +1,70 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{graphicx}  %for picture insert add by msc
+\usepackage{float}
+\usepackage{booktabs}  %for table line , add by msc
+\usepackage{textcomp}
+\newtheorem{theorem}{\textbf{Theorem}}
+\newtheorem{definition}{\textbf{Definition}}
+\newtheorem{lemma}{\textbf{Lemma}}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}  % Use Input in the format of Algorithm
+\renewcommand{\algorithmicensure}{\textbf{Output:}} % Use Output in the format of Algorithm
+\begin{document}
+\title{Optimization Approach Allocation for Network Slicing in 5G \\}
+
+\begin{abstract}
+这篇论文的重点要放在network slicing上，重点不能是NFV和SDN，这只是背景，交代说是这些技术支撑了网络切片，但是我的主要工作，应该是资源分配，因为这才是我们能做的事情，文章主要以5G network slicing为背景，考虑网络，存储，计算，电力等几种资源，来建立一个优化模型，利用深度强化学习的方法，对优化问题进行求解，从而提供为网络切片一个高效的策略。
+主要的贡献有：1，建立了一个网络切片的模型；2，考虑了多种情况，可以引入节日状态；3，利用深度强化学习的方法进行求解。
+
+\end{abstract}
+\section{Introduction}
+
+第一段：介绍5G的三大应用场景，为了引出需求多样化
+5G网络要解决的问题，不单单是网速提高的问题。他要面临多个场景应用的挑战。目前根据3GPP的规定，主要有三大应用场景，不同的场景的性能要求，分别是什么。
+那么5G要想满足这些应用的性能的需求，就需要多样化的资源分配方案，不能向4G那样的
+We need to allocated three types of resources. they are network, compute and storage.
+I need to read sdran network . and do some model building work.
+
+第二段：针对需求多样化的问题，怎样才能满足性能需求，提出网络切片技术
+这里可以是相关工作，我可以不要相关工作这一节。
+We assume total bandwidth in the network is $B$Hz.
+According to Shannon capacity formula,
+
+第三段：现有的网络切片都做成什么样？还有那些不足，我的motivation在哪！
+In article [], the virtual RAN was proposed to abstract the network resources.
+
+第四段：本文都干了那些工作，用了什么方法什么理论，得到了什么结果，结果的意义是什么？main contribution。
+
+第五段：文档结构说明
+
+
+\section{System Model}
+The 5G network include several elements as infrastructure. It includes base stations, mobile edge computing servers, core network and cloud.
+For the 5G communication, these kinds of resources should be considered.
+现在要看的，就是系统模型，从人家的论文中，汲取养分。
+
+要写出一个分片的模型，然后去求解
+\section{Resource Allocation and HARQ Optimization for URLLC Traffic in 5G Wireless Networks}
+C classes SINR, a Poisson process with rate $\lambda_{c}$ packets/sec. Arrival rates $\lambda := (\lambda_{1},\lambda_{2},...,\lambda_{C})$.
+Let $SINR_{c}$ denote the SINR of a class c user's packets.
+
+A class $c$ user requires $r_{c}$ channel. The transmission success probability is at least $1-\delta$. 
+A URLLC packet of class $c$ is allocated a bandwidth of $h_{c}$ for a period of time $s_{c}$.
+
+$\kappa s_{c}h_{c}=r_{c}$
+ 
+where $\kappa$ is a constant which denotes the number of channel uses per unit time per bandwidth of the OFDMA time-frequency plane.
+这篇文章看完了，主要是为了解决URLLC在时延和可靠性两方面的性能要求，但是感觉和我预想的思路没有关系。
+
+
+
+
+
+
+
+
+
+\end{document}
