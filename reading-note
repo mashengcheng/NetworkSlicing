@@ -1,2 +1,50 @@
 this is the reading note.
 I will recode some idea after reading papers with respect to network slicing.
+
+对于网络切片的描述，都使用了一个词叫做seamlessly，就是无缝的，衔接很好的。
+
+Virtual network layer provide abstract physical network resouce.
+
+要花一个图，用框表示的图：最下面是物理资源，中间是虚拟网络的抽象，在向上是slice，最上面是SDN controller和VNF的Orchestration编排，管理。
+
+我自己的思路：
+写点自己的思考： 对于资源来说，一直说有4种资源，1是网络，2是计算，3是存储，4是电力，那么对于网络资源来说，涉及到了无线信道资源，就是接入网部分的带宽资源
+对于无线的带宽资源，又要考虑到衰减，这个衰减与距离有关。这是这篇论文给的启发。还有的论文，直接把信道的分为了离散的几个级别，用来表示无线信道的传输情况。
+那么我该如何思考我的论文中的无线资源呢？
+
+网络分片是怎样的一个角度呢？怎样确定视角。看一下新下载的文章
+
+-----------------------------------------
+Network Slicing Management & Prioritization in 5G Mobile Systems.
+利用物理资源的时候，要考虑信道的衰减和干扰
+
+优化问题：最大化QOE
+
+总结一下这篇文章：
+这篇文章并没有考虑网络路径的问题，就是没有利用图的概念来建模。要补钙，我得吃什么？
+对于路径衰减和速率的计算，参考的文献15，显的非常专业
+对于优化问题变成了最大化QOE，直观上感觉不是很赶兴趣。
+值得借鉴的就是对于速率的计算，文献15那部分。
+------------------------------------------
+Integrated Networking, Cache and Computing for Connected Vehicles: A Deep Reinforcement Learning Approach.
+这篇文章和上一篇文章的共同点是都有一个状态变量，1就是分配了，有链接，0是没有分配，没有连接。
+
+这篇文章对通信资源，计算资源，缓存资源都做了分析，公式也比较透彻明了，也都看懂了，最优化的是什么？最优化的是R，通信率和计算率还有缓存利用率的总和。
+
+最后这篇文章应用的是强化学习的方法。我先把模型建出来吧。他的视角并不是网络分片的视角，而是一个资源分配的视角，整体协调网络，为车联网服务的。
+
+-------------------------------------------
+Mobile Traffic Forecasting for Maximizing 5G Network Slicing Resource Utilization
+移动流量预测，最大化5G网络切片资源利用率
+
+
+
+
+
+
+
+
+
+
+
+===========================================
