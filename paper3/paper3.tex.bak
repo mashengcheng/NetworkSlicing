@@ -45,18 +45,21 @@ In article [], the virtual RAN was proposed to abstract the network resources.
 The 5G network include several elements as infrastructure. It includes base stations, mobile edge computing servers, core network and cloud.
 For the 5G communication, these kinds of resources should be considered.
 现在要看的，就是系统模型，从人家的论文中，汲取养分。
+
+要写出一个分片的模型，然后去求解
 \section{Resource Allocation and HARQ Optimization for URLLC Traffic in 5G Wireless Networks}
 C classes SINR, a Poisson process with rate $\lambda_{c}$ packets/sec. Arrival rates $\lambda := (\lambda_{1},\lambda_{2},...,\lambda_{C})$.
 Let $SINR_{c}$ denote the SINR of a class c user's packets.
 
-A class $c$ user requires $r_{c}$ channel. The transmission success probability is at least $1-\delta$. 
+A class $c$ user requires $r_{c}$ channel. The transmission success probability is at least $1-\delta$.
 A URLLC packet of class $c$ is allocated a bandwidth of $h_{c}$ for a period of time $s_{c}$.
 
 $\kappa s_{c}h_{c}=r_{c}$
- 
+
 where $\kappa$ is a constant which denotes the number of channel uses per unit time per bandwidth of the OFDMA time-frequency plane.
+这篇文章看完了，主要是为了解决URLLC在时延和可靠性两方面的性能要求，但是感觉和我预想的思路没有关系。
 
-
+\section{Network Slicing}
 
 
 
