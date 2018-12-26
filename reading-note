@@ -36,8 +36,11 @@ Integrated Networking, Cache and Computing for Connected Vehicles: A Deep Reinfo
 -------------------------------------------
 Mobile Traffic Forecasting for Maximizing 5G Network Slicing Resource Utilization
 移动流量预测，最大化5G网络切片资源利用率
+提到了一个名词是admission control policy，感觉是一个分片发放控制的一个功能节点。
+这篇文章的三个关注点：1 对每一个分片进行分析预测；2 分片请求的准入控制； 3 基于已测量的数据预测将来的请求，对现有的策略进行校正。
 
-
+网络切片最初始的定义要找到引用文献。这篇文章的第一个引用文献就是。NGMN 5G WHITE PAPER
+the 5G Network Slicing Broker 这是提到一个新的名词，是其他论文没有看到过的。直接意译就是网络切片代理
 
 
 
