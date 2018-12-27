@@ -68,6 +68,15 @@ Based on this assumption, we seem system resources as a box with the cuboid shap
 
 We define a network slicing request as $s_{i} = \{C, B, T, i\}$, where $C$ is the requirements of the computing resource, $B$ is the amount of bandwidth required by network slice, $T$ is the tenancy period of this network slice, it is the time of the resource occupation, $i$ is used to identify the application who request the network slice.
 
+A set of applications $I$ need to be served, $i\in I, I_{i} = \{F, t\}$, where $F$ is the file size of application need to be computed and transferred, $t$ is the maximum delay required by application, the delay contains computing time and transferring time. When an application has been finished within the delay successfully, it can provide a profit $c$.
+
+\start{equation}
+\start{split}
+\max \sum_{i=1}^{I} C_{i} R_{i}
+subject to 
+
+\end{split}
+\end{equation}
 
 %the resource contains three types: network, computing, and storage. 因为我的这个模型中，没有存储的概念
 
