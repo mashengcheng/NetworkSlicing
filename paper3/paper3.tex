@@ -61,11 +61,14 @@ where $\kappa$ is a constant which denotes the number of channel uses per unit t
 
 \section{Network Slicing}
 A 5G network slicing management might organize the resource and allocated them for various application requests.
-the resource contains three types: network, computing, and storage.
+We assume that the system has a constant amount of resources. The network slicing request resources from system according to application requires, and every network slicing has its tenancy period.
+
+Based on this assumption, we seem system resources as a box with the cuboid shape. The Height of the box $H$ represents the computing capacity in the whole system. The width of the box $W$ represents the bandwidth provided by the network. The length of the box $L$ is the time axis, and it can accommodate the tenancy period of network slicing.
+%现在开始写network slicing的表达；
+
+We define a network slicing request as $s_{i} = {C,B,T,i}$, where $C$ is the requirements of computing resource, $B$ is the amount of resource . 
 
 
-
-
-
+%the resource contains three types: network, computing, and storage. 因为我的这个模型中，没有存储的概念
 
 \end{document}
