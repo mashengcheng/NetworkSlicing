@@ -51,17 +51,19 @@ For the 5G communication, these kinds of resources should be considered.
 C classes SINR, a Poisson process with rate $\lambda_{c}$ packets/sec. Arrival rates $\lambda := (\lambda_{1},\lambda_{2},...,\lambda_{C})$.
 Let $SINR_{c}$ denote the SINR of a class c user's packets.
 
-A class $c$ user requires $r_{c}$ channel. The transmission success probability is at least $1-\delta$. 
+A class $c$ user requires $r_{c}$ channel. The transmission success probability is at least $1-\delta$.
 A URLLC packet of class $c$ is allocated a bandwidth of $h_{c}$ for a period of time $s_{c}$.
 
 $\kappa s_{c}h_{c}=r_{c}$
- 
+
 where $\kappa$ is a constant which denotes the number of channel uses per unit time per bandwidth of the OFDMA time-frequency plane.
+这篇文章看完了，主要是为了解决URLLC在时延和可靠性两方面的性能要求，但是感觉和我预想的思路没有关系。
 
+\section{Network Slicing}
+A 5G network slicing management might organize the resource and allocated them for various application requests.
+the resource contains three types: network, computing, and storage.
 
-
-
-
+we assume the system resouces as a box with rectangle shape. the width of the box is time. it means the tenancy period of NS. 
 
 
 

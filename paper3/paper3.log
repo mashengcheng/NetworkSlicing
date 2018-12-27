@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.3.8)  24 DEC 2018 20:22
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.5)  27 DEC 2018 14:24
 entering extended mode
-**E:/00-Paper3/paper3/paper3.tex
-(E:/00-Paper3/paper3/paper3.tex
+**C:/Users/Mark/Documents/00_Paper3/NetworkSlicing/paper3/paper3.tex
+(C:/Users/Mark/Documents/00_Paper3/NetworkSlicing/paper3/paper3.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(E:\00-Paper3\paper3\IEEEtran.cls
+(C:\Users\Mark\Documents\00_Paper3\NetworkSlicing\paper3\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -348,7 +348,8 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 \c@theorem=\count117
 \c@definition=\count118
 \c@lemma=\count119
- (E:\00-Paper3\paper3\paper3.aux)
+
+(C:\Users\Mark\Documents\00_Paper3\NetworkSlicing\paper3\paper3.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
@@ -1382,6 +1383,127 @@ Missing character: There is no · in font ptmr7t!
 Missing character: There is no Ö in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no ´ in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no ö in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no » in font ptmr7t!
+Missing character: There is no ¸ in font ptmr7t!
+Missing character: There is no ö in font ptmr7t!
+Missing character: There is no · in font ptmr7t!
+Missing character: There is no Ö in font ptmr7t!
+Missing character: There is no Æ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no Í in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no È in font ptmr7t!
+Missing character: There is no » in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no ó in font ptmr7t!
+Missing character: There is no È in font ptmr7t!
+Missing character: There is no ¥ in font ptmr7t!
+Missing character: There is no Ç in font ptmr7t!
+Missing character: There is no ó in font ptmr7t!
+Missing character: There is no ½ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no Õ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no Æ in font ptmr7t!
+Missing character: There is no Î in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no Õ in font ptmr7t!
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no ¿ in font ptmr7t!
+Missing character: There is no ´ in font ptmr7t!
+Missing character: There is no Í in font ptmr7t!
+Missing character: There is no ê in font ptmr7t!
+Missing character: There is no Á in font ptmr7t!
+Missing character: There is no Ë in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no Ö in font ptmr7t!
+Missing character: There is no ÷ in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ç in font ptmr7t!
+Missing character: There is no Î in font ptmr7t!
+Missing character: There is no Á in font ptmr7t!
+Missing character: There is no Ë in font ptmr7t!
+Missing character: There is no ½ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ¾ in font ptmr7t!
+Missing character: There is no ö in font ptmr7t!
+Missing character: There is no Ô in font ptmr7t!
+Missing character: There is no Ú in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no Ñ in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no Í in font ptmr7t!
+Missing character: There is no ¿ in font ptmr7t!
+Missing character: There is no É in font ptmr7t!
+Missing character: There is no ¿ in font ptmr7t!
+Missing character: There is no ¿ in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no Ô in font ptmr7t!
+Missing character: There is no Á in font ptmr7t!
+Missing character: There is no ½ in font ptmr7t!
+Missing character: There is no · in font ptmr7t!
+Missing character: There is no ½ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no æ in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no Ô in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no Ü in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ç in font ptmr7t!
+Missing character: There is no ó in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no « in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ç in font ptmr7t!
+Missing character: There is no ¸ in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no ¾ in font ptmr7t!
+Missing character: There is no õ in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no Í in font ptmr7t!
+Missing character: There is no Î in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ô in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ï in font ptmr7t!
+Missing character: There is no ë in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no Ë in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no · in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no » in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no ¹ in font ptmr7t!
+Missing character: There is no Ø in font ptmr7t!
+Missing character: There is no Ï in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
 
 
 ** Conference Paper **
@@ -1399,23 +1521,23 @@ Before submitting the final camera ready copy, remember to:
 {C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
 
 ]
-(E:\00-Paper3\paper3\paper3.aux) ) 
+(C:\Users\Mark\Documents\00_Paper3\NetworkSlicing\paper3\paper3.aux) ) 
 Here is how much of TeX's memory you used:
  3683 strings out of 495354
- 52344 string characters out of 3183860
- 102617 words of memory out of 3000000
+ 52668 string characters out of 3183860
+ 104617 words of memory out of 3000000
  6829 multiletter control sequences out of 15000+200000
  31414 words of font info for 67 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 27i,4n,24p,369b,102s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.e
-nc}<C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/CT
-EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1
-/urw/times/utmb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/CTE
-X/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on paper3.pdf (1 page, 81352 bytes).
+ 27i,4n,24p,414b,102s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/CTEX/
+MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/CTEX/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/
+CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/CTEX/MiKTeX/fonts
+/type1/urw/times/utmbi8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on paper3.pdf (1 page, 83498 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
