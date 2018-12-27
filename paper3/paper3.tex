@@ -66,7 +66,7 @@ We assume that the system has a constant amount of resources. The network slicin
 Based on this assumption, we seem system resources as a box with the cuboid shape. The Height of the box $H$ represents the computing capacity in the whole system. The width of the box $W$ represents the bandwidth provided by the network. The length of the box $L$ is the time axis, and it can accommodate the tenancy period of network slicing.
 %现在开始写network slicing的表达；
 
-We define a network slicing request as $s_{i} = {C,B,T,i}$, where $C$ is the requirements of computing resource, $B$ is the amount of resource . 
+We define a network slicing request as $s_{i} = \{C, B, T, i\}$, where $C$ is the requirements of the computing resource, $B$ is the amount of bandwidth required by network slice, $T$ is the tenancy period of this network slice, it is the time of the resource occupation, $i$ is used to identify the application who request the network slice.
 
 
 %the resource contains three types: network, computing, and storage. 因为我的这个模型中，没有存储的概念

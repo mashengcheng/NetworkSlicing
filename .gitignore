@@ -1,2 +1,5 @@
 
 paper3/paper3.aux
+*.gz
+*.pdf
+*.log
