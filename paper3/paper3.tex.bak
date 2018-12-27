@@ -16,7 +16,7 @@
 \title{Optimization Approach Allocation for Network Slicing in 5G \\}
 
 \begin{abstract}
-这篇论文的重点要放在network slicing上，重点不能是NFV和SDN，这只是背景，交代说是这些技术支撑了网络切片，但是我的主要工作，应该是资源分配，因为这才是我们能做的事情，文章主要以5G network slicing为背景，考虑网络，存储，计算，电力等几种资源，来建立一个优化模型，利用深度强化学习的方法，对优化问题进行求解，从而提供为网络切片一个高效的策略。
+这篇论文的重点要放在network slicing上，重点不能是NFV 和SDN，这只是背景，交代说是这些技术支撑了网络切片，但是我的主要工作，应该是资源分配，因为这才是我们能做的事情，文章主要以5G network slicing为背景，考虑网络，存储，计算，电力等几种资源，来建立一个优化模型，利用深度强化学习的方法，对优化问题进行求解，从而提供为网络切片一个高效的策略。
 主要的贡献有：1，建立了一个网络切片的模型；2，考虑了多种情况，可以引入节日状态；3，利用深度强化学习的方法进行求解。
 
 \end{abstract}
@@ -61,11 +61,22 @@ where $\kappa$ is a constant which denotes the number of channel uses per unit t
 
 \section{Network Slicing}
 A 5G network slicing management might organize the resource and allocated them for various application requests.
-
 We assume that the system has a constant amount of resources. The network slicing request resources from system according to application requires, and every network slicing has its tenancy period.
+
 Based on this assumption, we seem system resources as a box with the cuboid shape. The Height of the box $H$ represents the computing capacity in the whole system. The width of the box $W$ represents the bandwidth provided by the network. The length of the box $L$ is the time axis, and it can accommodate the tenancy period of network slicing.
+%现在开始写network slicing的表达；
 
+We define a network slicing request as $s_{i} = \{C, B, T, i\}$, where $C$ is the requirements of the computing resource, $B$ is the amount of bandwidth required by network slice, $T$ is the tenancy period of this network slice, it is the time of the resource occupation, $i$ is used to identify the application who request the network slice.
 
+A set of applications $I$ need to be served, $i\in I, I_{i} = \{F, t\}$, where $F$ is the file size of application need to be computed and transferred, $t$ is the maximum delay required by application, the delay contains computing time and transferring time. When an application has been finished within the delay successfully, it can provide a profit $c$.
+
+\begin{equation}
+\begin{split}
+\max \sum_{i=1}^{I} C_{i} R_{i}
+subject to
+
+\end{split}
+\end{equation}
 
 %the resource contains three types: network, computing, and storage. 因为我的这个模型中，没有存储的概念
 

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.5)  27 DEC 2018 15:02
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.3.8)  27 DEC 2018 23:33
 entering extended mode
-**C:/Users/Mark/Documents/00_Paper3/NetworkSlicing/paper3/paper3.tex
-(C:/Users/Mark/Documents/00_Paper3/NetworkSlicing/paper3/paper3.tex
+**E:/GitHub/NetworkSlicing/paper3/paper3.tex
+(E:/GitHub/NetworkSlicing/paper3/paper3.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(C:\Users\Mark\Documents\00_Paper3\NetworkSlicing\paper3\IEEEtran.cls
+(E:\GitHub\NetworkSlicing\paper3\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -349,7 +349,7 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 \c@definition=\count118
 \c@lemma=\count119
 
-(C:\Users\Mark\Documents\00_Paper3\NetworkSlicing\paper3\paper3.aux)
+(E:\GitHub\NetworkSlicing\paper3\paper3.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
@@ -785,12 +785,6 @@ Missing character: There is no ½ in font ptmb7t!
 Missing character: There is no â in font ptmb7t!
 Missing character: There is no ¡ in font ptmb7t!
 Missing character: There is no £ in font ptmb7t!
-
-Underfull \hbox (badness 2334) in paragraph at lines 18--21
-[]\OT1/ptm/b/it/9 Abstract\OT1/ptm/b/n/9 ---ªªnetwork s-lic-ingN-FVS-D-Nªªª5G n
-et-work s-lic-ingªª
- []
-
 Missing character: There is no µ in font ptmr7t!
 Missing character: There is no Ú in font ptmr7t!
 Missing character: There is no Ò in font ptmr7t!
@@ -1158,7 +1152,7 @@ Missing character: There is no Ú in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 LaTeX Font Info:    Try loading font information for U+msa on input line 33.
-(C:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+ (C:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 33.
@@ -1518,28 +1512,27 @@ Before submitting the final camera ready copy, remember to:
 
 [1
 
-{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
-
-]
-(C:\Users\Mark\Documents\00_Paper3\NetworkSlicing\paper3\paper3.aux) ) 
+{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
+(E:\GitHub\NetworkSlicing\paper3\paper3.aux) ) 
 Here is how much of TeX's memory you used:
  3683 strings out of 495354
- 52668 string characters out of 3183860
- 104617 words of memory out of 3000000
+ 52452 string characters out of 3183860
+ 107617 words of memory out of 3000000
  6829 multiletter control sequences out of 15000+200000
  31414 words of font info for 67 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 27i,4n,24p,414b,102s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/CTEX/
-MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/CTEX/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/
-CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/CTEX/MiKTeX/fonts
-/type1/urw/times/utmbi8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on paper3.pdf (1 page, 86143 bytes).
+ 27i,9n,24p,410b,110s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/CTEX/MiKTeX/fonts/enc/dvips/f
+ontname/8r.enc}<C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/CT
+EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/CTEX/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/time
+s/utmb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/CTEX/MiKTeX/
+fonts/type1/urw/times/utmr8a.pfb>
+Output written on paper3.pdf (1 page, 98556 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
