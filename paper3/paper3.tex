@@ -41,8 +41,6 @@ In article [], the virtual RAN was proposed to abstract the network resources.
 第五段：文档结构说明
 
 
-\section{System Model}
-
 
 \section{Network Slicing}
 A 5G network slicing management might organize the resource and allocated them for various application requests.
@@ -58,7 +56,7 @@ Many diverse applications in the system for network slicing management to select
 %, the delay contains computing time and transmission time
 Firstly, the resources in the network slice allocated to application need to satisfy the performance requirement. The delay of application $t_{i}$ includes two parts, the computing time cost and the transmission time cost. The computing time cost depends on the data size $F_{i}$ and the computing rate $C_{i}$, the ratio $\frac{F_{i}}{C_{i}}$ is the computing time. The transmission time cost relies on data size $F_{i}$ and the transmission rate which lie on the allocated bandwidth $B_{i}$. The sum of two time costs must less than or equal to threshold of delay $t_{i}$.
 Secondly, the number of system resources is constant for a built network. Therefore, the computing capacity and bandwidth of network slice are both limited by system resources. The system resource utilization are considered in a certain period, so the whole duration of network slices need to be within the certain period.%special time.
-Finally, the $S_{i}$ corresponds to the cubage of allocated network slice $i$. The slices should not overlap with each other, in order to guarantee the applications occupy their own resources. 
+Finally, the $S_{i}$ corresponds to the cubage of allocated network slice $i$. The slices should not overlap with each other, in order to guarantee the applications occupy their own resources.
 Then we can formulate our network slicing problem as follows
 
 \begin{align}
