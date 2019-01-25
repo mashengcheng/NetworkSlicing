@@ -25,8 +25,16 @@
 第一段：介绍5G的三大应用场景，为了引出需求多样化
 5G网络要解决的问题，不单单是网速提高的问题。他要面临多个场景应用的挑战。目前根据3GPP的规定，主要有三大应用场景，不同的场景的性能要求，分别是什么。
 那么5G要想满足这些应用的性能的需求，就需要多样化的资源分配方案，不能向4G那样的
-We need to allocated three types of resources. they are network, compute and storage.
+We have assume that the system contains two kinds of resources. The computing resources and network resources.
+
 I need to read sdran network . and do some model building work.
+
+\begin{figure*}[htbp]
+\centering
+\includegraphics[width=.8\textwidth]{NetworkSlicing.jpg}
+\caption{Network Slicing Model.}
+\label{fig_model}
+\end{figure*}
 
 第二段：针对需求多样化的问题，怎样才能满足性能需求，提出网络切片技术
 这里可以是相关工作，我可以不要相关工作这一节。
@@ -43,11 +51,14 @@ In article [], the virtual RAN was proposed to abstract the network resources.
 
 
 \section{Network Slicing}
+
+
 A 5G network slicing management might organize the resource and allocated them for various application requests.
 We assume that the system has a constant amount of resources. The network slicing request resources from system according to application requires, and every network slicing has its tenancy period.
 
-Based on this assumption, we seem system resources as a box with the cuboid shape. The height of the box $H$ represents the computing capacity in the whole system. The width of the box $W$ represents the bandwidth provided by the network. The length of the box $L$ is the time axis, and it can accommodate the tenancy period of network slicing. The network slices are seemed as small boxes filled in the system cuboid. Network slicing is like putting as many different sizes small boxes as possible into the big cuboid of the system.
+Based on this assumption, we seem system resources as a box with the cuboid shape. The height of the box $H$ represents the computing capacity in the whole system. The width of the box $W$ represents the bandwidth provided by the network. The length of the box $L$ is the time axis, and it can accommodate the tenancy period of network slicing. The network slices are seemed as small boxes filled in the system cuboid. Network slicing is like putting as many different sizes small boxes as possible into the big cuboid of the system. As shown in Figure.\ref{fig_model}.
 %现在开始写network slicing的表达；
+
 
 We define a network slicing request as $S_{i} = \{C, B, T, i\}$, where $C$ is the requirements of the computing resource, $B$ is the amount of bandwidth required by network slice, $T$ is the tenancy period of this network slice, it is the time of the resource occupation, $i$ is used to identify the application who request the network slice.
 
